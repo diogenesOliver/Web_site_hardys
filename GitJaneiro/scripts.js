@@ -14,8 +14,8 @@ buttonEsconder.addEventListener('click', () => {
     buttonEsconder.style.display = 'none'
 })
 
-window.addEventListener('scroll', function(e){
-    if(window.pageYOffset > 100){
+addEventListener('scroll', function(e){
+    if(pageYOffset > 100){
         oneContainer.style.background = 'rgba(0, 0, 0, .6)'
     }else{
         oneContainer.style.background = 'rgba(0, 0, 0, .4)'
